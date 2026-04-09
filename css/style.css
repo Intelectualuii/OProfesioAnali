@@ -1,0 +1,40 @@
+body{
+
+	margin: 0;
+	min-height: 100vh;
+	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(135deg, #bd9244 0%, #d9e7ff 100%);
+	color: #1f2933;
+    display: block;
+	
+}
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    display:grid;
+    justify-content: left;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    
+    align-items: center;
+    gap: 67px;
+    margin-left: 200px
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000000;
+    
+}
